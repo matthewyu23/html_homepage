@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <script language="javascript" type="text/javascript" src="p5.js"></script>
+            <script language="javascript" type="text/javascript" src="sketch.js"></script>
+            <style> body {padding: 0; margin: 0;} </style>
+
+        <title>
+            Home
+        </title>
+        <style>
+            body{
+                background-image: url(wallpaper.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat:no-repeat;
+                background-color: #ffffff;
+            }
+
+            .newsHeadingFormat{
+            
+            font-size: 30px;
+            margin-top: 1%;
+            margin-left: 2%;
+            margin-bottom: 1%;
+            font-family: Courier
+        }
+            .newsBodyFormat{
+            
+            font-size: 20px;
+            margin-left: 2%;
+            margin-right: 25%;
+            margin-top: 0%;
+            font-family: Courier New
+        }
+
+            .timeFormat{
+            
+                 font-size: 80px;
+                 margin-top: 2%;
+                 margin-right: 7%;
+                 margin-bottom: 0%;
+                 font-family: Courier New
+            }
+            .dateFormat{
+            
+                font-size: 50px;
+                margin-top: 0%;
+                margin-right: 7%;
+                margin-bottom: 0%;
+                font-family: Courier New
+            }
+            }
+            
+        
+        </style>
+        
+    
+    </head>
+    <body>
+        <p id = "newsHeadingNotLoaded" class = "newsHeadingFormat"><a id = "newsHeading" style="color: #000000" target="_blank" href = "https://techcrunch.com"></a></p>
+        <p id = "newsBody" class = "newsBodyFormat"></p>
+        
+
+
+        <div align = "RIGHT">
+            <p id = "time" class = "timeFormat"></p>
+            <p id = "date" class = "dateFormat"></p>
+        </div>
+
+    </body>
+</html>
